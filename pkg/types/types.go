@@ -27,3 +27,9 @@ type Payment struct {
 	Status   Status
 	Category Category
 }
+
+type Card struct {
+	ID      int
+	PAN     string
+	Balance Money
+}
